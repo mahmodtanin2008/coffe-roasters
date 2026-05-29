@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.main {
+  background-image: url(/imge/image-hero-coffeepress.jpg);
+  background-size: cover;
+  height: 500px;
+  border-radius: 30px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.m_title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 48px;
+  width: 329px;
+}
+.text_m {
+  text-align: left;
+  width: 398px;
+  color: #fefcf7;
+  text-align: left;
+  margin-top: 50px;
+}
+.m_but {
+  height: 56px;
+  width: 217px;
+  border-radius: 6px;
+  font-size: 18px;
+  border: none;
+  background-color: #0e8784;
+  color: #fefcf7;
+  margin-top:50px ;
+}
+.m_but:hover {
+  background-color: #5ce0de;
+  color: #fefcf7;
+}

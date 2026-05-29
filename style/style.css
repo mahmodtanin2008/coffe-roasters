@@ -6,14 +6,32 @@ body {
   padding-left: 100px;
   padding-right: 100px;
 }
+.nav_pic{
+  margin-top: 50px;
+}
+
+.nav {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  height: 113px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
 
 .main {
-  background-image: url(/imge/image-hero-coffeepress.jpg);
+  background-image: url(/imge/image-hero-coffeepress\ \(1\).jpg);
   background-size: cover;
   height: 500px;
-  border-radius: 30px;
+  border-radius: 15px;
   padding-top: 50px;
   padding-left: 80px;
+  background-position: center;
+  margin-top:50px;
 }
 .m_title {
   color: white;
@@ -36,7 +54,7 @@ body {
   border: none;
   background-color: #0e8784;
   color: #fefcf7;
-  margin-top:50px ;
+  margin-top: 50px;
 }
 .m_but:hover {
   background-color: #5ce0de;

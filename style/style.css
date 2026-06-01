@@ -16,6 +16,9 @@ body {
   right: 150px;
   height: 113px;
 }
+a:hover{
+  color: gray;
+}
 
 a {
   text-decoration: none;
